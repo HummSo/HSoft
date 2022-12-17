@@ -30,6 +30,7 @@ public class WebSecurityConfig {
 		return http.build();
 	}
 
+	@SuppressWarnings("deprecation")
 	@Bean
 	public UserDetailsService userDetailsService() {
 		UserDetails user =
